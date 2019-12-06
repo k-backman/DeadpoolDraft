@@ -1,0 +1,196 @@
+/* Find a way to add drop shadows on boxes and
+add a message board (def need java script)*/
+
+
+
+
+body{
+	background-color: #333;
+	color:#555;
+	font-family: ariel, helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+@media(min-width: 768px){
+.lists{
+	display:flex;
+	align-items: flex.start;
+	justify-content: space-around;
+	}
+}
+
+.container{
+	display: flex;
+
+}
+
+.lists{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-basis: 50%;
+	justify-content: space-around;
+	margin: -10px;
+}
+
+.team{
+	font-size: 14px;
+	color: white;
+	border: 1px #ccc solid;
+	border-radius: 15px;
+	box-shadow: 10px 10px black;
+	margin: 20px;
+}
+
+.winner{
+	font-size: 14px;
+	color: yellow;
+	border: 1px yellow dotted;
+	border-radius: 15px;
+	box-shadow: 10px 10px black;
+
+}
+
+.winner h3{
+	text-align: center;
+}
+
+.team h3{
+	text-align: center;
+}
+
+.team ul{
+	text-align: left;
+}
+
+
+
+#main-header{
+	background-color: #8c3b3b;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#main-header h1{
+	background-color: #8c3b3b;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#logo{
+	float: left;
+	position: relative;
+	top: -82px;
+	left: 10px;
+}
+
+#navbar{
+	font-weight: bold;
+	background-color: #333;
+	color: white;
+	padding: 5px;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+
+
+#main-block{
+	flex: 2;
+	background-color: #333;
+	color: white;
+	/*float:left;
+	width:70%;
+	padding:20px;
+	box-sizing:border-box;*/
+}
+
+#rules-block{
+	flex: 4;
+	font-size: 13px;
+	background-color: #333;
+	color: white;
+	/*float:left;
+	width:70%;
+	padding:5px;
+	box-sizing:border-box;*/
+}
+
+#sidebar{
+	flex: 1;
+	justify-content: center;
+	/*float:right;
+	width:30%;*/
+	background-color:#333;
+	color:#fff;
+	border: 1px #ccc solid;
+	padding: 10px;
+	/*padding:20px 30px;
+	box-sizing: border-box;*/
+}
+
+/* How to have the boxes slimmer*/
+
+.block{
+	text-align: left;
+	font-size: 12px;
+	color: white;
+	float: left;
+	width: 25%;
+	border: 1px #ccc solid;
+	border-radius: 15px; 
+	margin: 5px;
+	padding: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+#date-list{
+	font-size: 18px;
+	line-height: 1.6em;
+	background-color: #333;
+	color: white;
+	/*float:left;
+	width:70%;
+	padding:5px;
+	box-sizing:border-box;*/
+}
+
+#minor-header{
+	font-size: 18px;
+	line-height: 1.6em;
+	background-color: #333;
+	color: white;
+	text-align: center;
+
+}
+
+.clr{
+	clear: both;
+}
+
+
+
+
+
+
